@@ -1,0 +1,96 @@
+/*button {
+  background-color: #0c80f3;
+  border: 6px solid #0ff166;
+  border-radius: 10px;
+}*/
+
+ #turn, #info{
+  font-family: 'Permanent Marker', Cursive;
+  font-size:xx-large;
+  color: coral;
+  text-align: center;
+}
+
+.winner {
+  /*font-family: 'Permanent Marker', Cursive;
+  position: absolute;
+  place-self: center;
+ 
+  font-size:xx-large;
+  font-weight:1000; */
+  color:chartreuse;
+}
+
+#x{
+  text-align:left;
+  float:left;
+  margin-left: 200px;
+}
+#x.playerO{
+  color : gray;
+}
+
+#o {
+  text-align:right;
+  float:right;
+  margin-right:200px;
+}
+
+
+#o.playerX{
+  color : gray;
+}
+
+button {
+  background: #4285f4;
+  margin :10px;
+ 
+}
+
+button:hover {
+  background: #2a56c6;
+}
+
+button::shadow #ripple {
+  color: #2a56c6;
+}
+
+.game-board {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color:lightgrey;
+  color: rgb(204, 28, 28);
+  border: 6px solid #0b0d0f;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.grid-row {
+  font-family: Chalkduster, fantasy;
+  font-weight: bold;
+  font-size: 4em;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+ /* background-color: rgb(175, 70, 70);*/
+}
+
+.block {
+  background-color: rgb(219, 28, 28);
+  border: 6px solid green;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20em;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
